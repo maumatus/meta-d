@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&display=swap');
+
+/*--------Reglas generales---------*/
+:root {
+    --verde-oscuro: #0A3223;
+    --verde-claro: #0BBD79;
+    --rojo-titulo: #FF210B;
+    --blanco-fondo: #f5f0ed;
+    --hover-btn:#cebb0d;
+    --negro:#000000;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255, 0);
+    background-position: bottom;
+}
+
+/*--------Reglas Específicas----------*/
+
+/*Contenedor principal app*/
+
+.contenedor-principal{
+    width: 300px;
+    height: 510px;
+    background-color: var(--verde-claro);
+    border: transparent;
+    margin: 50px;
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 15px 100px 15px 15px;
+}
+
+/*Elementos componentes app*/
+
+.contenedor-titulo{
+    padding-bottom: 0;
+    padding-top: -10px;
+    margin-bottom: -20px;
+    width: 300px;
+    height: 100px;
+}
+
+#titulo{
+    font-size: 75px;
+    margin-top: -40px;
+    margin-bottom: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    color: var(--blanco-fondo);
+}
+
+/*Seccion arrastre y boton-contenedor*/
+.controles{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    width: 300px;
+}
+/*Seccion arrastre y boton-controles*/
+.drop-file-boton{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+.btn{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: end;
+}
+
+#zona-arrastre{
+    border: 2px dotted var(--rojo-titulo);
+    -webkit-border-radius: 5px;
+    border-radius: 7px;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+#btn-procesar{
+    background-color: var(--rojo-titulo);
+    color: var(--blanco-fondo);
+    padding: 5px;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+}
+
+#btn-procesar{
+    background-color: var(--rojo-titulo);
+    color: var(--blanco-fondo);
+    padding: 5px;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+}
+
+#btn-procesar{
+    background-color: var(--rojo-titulo);
+    color: var(--blanco-fondo);
+    padding: 5px;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+}
+
+#btn-procesar{
+    background-color: var(--rojo-titulo);
+    color: var(--blanco-fondo);
+    padding: 5px;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+}
+
+#btn-procesar:hover{
+    background-color: var(--hover-btn);
+}
+
+
+
+/*Muestra de informacion*/
+
+.scroll-data{
+    background-color: var(--blanco-fondo);
+    color: var(--negro);
+    border-radius: 15px;
+    scroll-behavior: auto;
+    overflow: scroll;
+    height: 250px;
+    width: 300px;
+    /* Again, this is where the magic happens */
+    -webkit-overflow-scrolling: touch;
+}
+
+/*Footer*/
+.footer{
+    text-align: center;
+}
+
+#creditos{
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-weight: 100;
+}
+
+  

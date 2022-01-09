@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Video Metadata</title>
+  <!-- https://electronjs.org/docs/tutorial
+                           /security#csp-meta-tag -->
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+</head>
+
+<body>
+
+    <section class="contenedor-principal">
+
+        <section class="contenedor-titulo">
+
+            <section id="titulo">
+
+                <h1>Meta-D</h1>
+    
+            </section>
+
+        </section>
+
+
+        <section class="controles">
+
+            <form class="drop-file-boton">
+
+                <div id="zona-arrastre">Arrastra archivo aquí:
+
+                    <input type="file" name="file" accept="video/*" />
+
+                </div>
+
+
+                <div class="btn">
+
+                    <button type="submit" id="btn-procesar">P</button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <section class="scroll-data">
+
+            <ol class="informacion">
+
+                <li>
+                    <p id="duration"></p>
+                </li>
+                        
+                <li>
+                    <p id="formato"></p>
+                </li>
+                
+                <li>
+                    <p id="codec"></p>
+                </li>
+                        
+                <li>
+                    <p id="tamano"></p>
+                </li>
+
+                <li>
+                    <p id="color"></p>
+                </li>
+                        
+                <li>
+                    <p id="framerate"></p>
+                </li>
+                        
+                <li>
+                    <p id="bitrate"></p>
+                </li>
+                        
+                <li>
+                    <p id="sample-rate"></p>
+                </li>
+                        
+                <li>
+                    <p id="canales"></p>
+                </li>
+
+            </ol>
+
+        </section>
+
+        <section class="footer">
+
+            <h5 id="creditos">MAU/Región de los Ríos 2021/Derechos R.</h5>
+
+        </section>
+
+    </section>
+
+  <!--JS-->
+  <script src="./renderer.js"></script>
+
+</body>
+
+</html>
